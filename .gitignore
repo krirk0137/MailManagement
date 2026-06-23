@@ -427,3 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ---- Claude Code ----
+# Share project skills/commands/settings across machines, but keep
+# machine-local permission overrides out of the repo.
+.claude/settings.local.json
+.claude/**/*.local.json
